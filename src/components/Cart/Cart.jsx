@@ -30,5 +30,6 @@ Cart.propTypes={
     id: PropTypes.number,
     courseTitle: PropTypes.string,
     creditHour: PropTypes.number,
+    ifExist:PropTypes.bool
 }
 export default Cart;
