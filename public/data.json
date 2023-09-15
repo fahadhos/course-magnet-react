@@ -4,15 +4,15 @@
 
     {
       "id": 1,
-      "image": "https://i.ibb.co/tprv2GX/Rectangle2.png",
+      "image": "https://i.ibb.co/GkBwH2S/1-no-card.jpg",
     "coursetitle": "Introduction to Programming",
-    "credithour": 3,
+    "credithour": 1,
     "price": 199,
     "coursedetails": "This course covers the fundamentals of programming using popular languages like Python and Java."
      },
     {
       "id": 2,
-      "image": "https://i.ibb.co/X7DY2zt/Rectangle21.png",
+      "image": "https://i.ibb.co/dfmcx1z/2-no-card.jpg",
       "coursetitle": "Web Development Basics",
       "credithour": 2,
       "price": 149,
@@ -20,7 +20,7 @@
        },
     {
       "id": 3,
-      "image": "https://i.ibb.co/hH6jwL2/Rectangle22.png",
+      "image": "https://i.ibb.co/fdRz9XY/3-no-card.jpg",
       "coursetitle": "Data Science Fundamentals",
       "credithour": 10,
       "price": 299,
@@ -28,7 +28,7 @@
     },
     {
       "id": 4,
-      "image": "https://i.ibb.co/dB17vJy/Rectangle23.png",
+      "image": "https://i.ibb.co/2K2xBGX/4-no-card.jpg",
     "coursetitle": "Graphic Design for Beginners",
     "credithour": 5,
     "price": 179,
@@ -36,7 +36,7 @@
     },
     {
       "id": 5,
-      "image": " https://i.ibb.co/GRZBM2w/Rectangle24.png",
+      "image": "https://i.ibb.co/k9mnppc/5-no-card.jpg",
     "coursetitle": "Digital Marketing Strategies",
     "credithour": 3,
     "price": 199,
@@ -44,7 +44,7 @@
     },
     {
       "id": 6,
-      "image": "https://i.ibb.co/KKdzg8F/Rectangle25.png",
+      "image": "https://i.ibb.co/NyrjvYr/6-no-card.jpg",
     "coursetitle": "Business Management Essentials",
     "credithour": 3,
     "price": 249,
@@ -52,7 +52,7 @@
     },
     {
       "id": 7,
-      "image": "https://i.ibb.co/bRPjNRP/Rectangle26.png",
+      "image": "https://i.ibb.co/zJ6gvCD/7-no-card.jpg",
     "coursetitle": "Artificial Intelligence in Practice",
     "credithour": 4,
     "price": 349,
@@ -60,7 +60,7 @@
     },
     {
       "id": 8,
-      "image": "https://i.ibb.co/FqPBXy4/Rectangle3.png",
+      "image": "https://i.ibb.co/cc3shjp/8-no-card.jpg",
       "coursetitle": "Cybersecurity Fundamentals",
       "credithour": 3,
       "price": 279,
@@ -68,7 +68,7 @@
        },
     {
       "id": 9,
-      "image": "https://i.ibb.co/hVQyZSG/Rectangle31.png",
+      "image": "https://i.ibb.co/rspnYNJ/9-no-card.jpg",
     "coursetitle": "Financial Planning and Investment",
     "credithour": 3,
     "price": 329,
