@@ -2,11 +2,11 @@ import { useState } from 'react'
  
 import './App.css'
 import Header from './components/Header/Header'
-import Card from './components/Card/Card'
+// import Card from './components/Card/Card'
 import Cards from './components/Cards/Cards'
-import Cart from './components/Cart/Cart'
+// import Cart from './components/Cart/Cart'
 import Carts from './components/Carts/Carts'
-import Alert from './components/Alert/Alert'
+// import Alert from './components/Alert/Alert'
 
 
 function App() { 
@@ -43,7 +43,7 @@ const [creditHour, setCreditHour] = useState(0)
     const newCredithour = creditHour+credithour
 
     if(newCredithour>20){
-      return alert('credit hour can not exceed from 20')
+      return alert('Sorry, course exceeds maximum credit limit (20hr).')
       // setwarningforch(true)
     }else{
 
