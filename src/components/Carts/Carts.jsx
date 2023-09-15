@@ -1,15 +1,15 @@
  
 import PropTypes from 'prop-types';
 import Cart from './../Cart/Cart';
+
+ 
 const Carts = ({id,courseTitle,creditHour,ifExist,remainingCH,totalPrice }) => {
   
-  
-  
-  
+ 
     return (
         <div className='mx-auto'>
             <Cart 
-            id={id}
+            id={id} 
             ifExist={ifExist}
             courseTitle={courseTitle}
             creditHour={creditHour}
