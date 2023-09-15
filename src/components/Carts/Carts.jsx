@@ -1,7 +1,7 @@
  
 import PropTypes from 'prop-types';
 import Cart from './../Cart/Cart';
-const Carts = ({id,courseTitle,creditHour,ifExist }) => {
+const Carts = ({id,courseTitle,creditHour,ifExist,remainingCH,totalPrice }) => {
   
   
   
@@ -13,6 +13,8 @@ const Carts = ({id,courseTitle,creditHour,ifExist }) => {
             ifExist={ifExist}
             courseTitle={courseTitle}
             creditHour={creditHour}
+            totalPrice={totalPrice}
+            remainingCH={remainingCH}
             ></Cart>
         </div>
     );
@@ -21,7 +23,9 @@ Carts.propTypes={
     id: PropTypes.number,
     courseTitle: PropTypes.string,
     creditHour: PropTypes.number,
-    ifExist:PropTypes.bool
+    ifExist:PropTypes.bool,
+    remainingCH: PropTypes.number,
+    totalPrice: PropTypes.number,
 }
 
 export default Carts;
