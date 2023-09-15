@@ -21,7 +21,7 @@ const Cart = ({id,courseTitle,creditHour, ifExist,remainingCH,totalPrice}) => {
           <div className="card-actions justify-end">
             <p className="border-t-2 border-b-2 font-medium leading-[3rem]"><small> Total Credit Hour : {creditHour} </small></p>
               </div>
-                  <p className=" font-semibold"> <small>Total Price : {totalPrice} USD </small></p>
+                   <p className=" font-semibold"> <small>Total Price : {totalPrice} USD </small></p>
         
         </div>
       </div></> 
