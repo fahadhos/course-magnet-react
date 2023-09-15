@@ -22,7 +22,7 @@
       "id": 3,
       "image": "https://i.ibb.co/hH6jwL2/Rectangle22.png",
       "coursetitle": "Data Science Fundamentals",
-      "credithour": 4,
+      "credithour": 10,
       "price": 299,
       "coursedetails": "Explore data analysis, machine learning, and data visualization in this comprehensive course."
     },
@@ -30,7 +30,7 @@
       "id": 4,
       "image": "https://i.ibb.co/dB17vJy/Rectangle23.png",
     "coursetitle": "Graphic Design for Beginners",
-    "credithour": 2,
+    "credithour": 5,
     "price": 179,
     "coursedetails": "Discover the basics of graphic design, including Adobe Photoshop and Illustrator."
     },
