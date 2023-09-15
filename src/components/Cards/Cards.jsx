@@ -16,7 +16,7 @@ const Cards = ({handleAddCourse}) => {
 
 
     return (
-        <div className="grid grid-cols-3 gap-2 mx-auto">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-2 mx-auto ">
                {
                 courses.map((courses,idx)=><Card key={idx}
                 courses={courses}
