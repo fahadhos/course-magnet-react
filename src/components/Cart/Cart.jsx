@@ -1,6 +1,7 @@
  
 import Alert from '../Alert/Alert';
 import PropTypes from 'prop-types';
+import './Cart.css'
  import congo from '../../assets/congo.png'
 const Cart = ({ id,courseTitle,creditHour, ifExist,remainingCH,totalPrice}) => {
    
@@ -17,10 +18,10 @@ const Cart = ({ id,courseTitle,creditHour, ifExist,remainingCH,totalPrice}) => {
           <h2 className="card-title border-b-2 text-[#2F80ED] font-bold leading-[5rem] ">
             Credit Hour Remaining {remainingCH} hr</h2>
           <h2 key={id} className="card-title  ">Course Name</h2>
-          <p className="text-[#1c1b1b99] font-normal">
+          <p className={` ${courseTitle=='' ? `empty-msg`:`text-[#1c1b1b99] font-normal` }`}>
             
             
-            {courseTitle.map((title,idx) => <li key={idx} type="1">{title}</li>)}
+            { courseTitle=='' ? 'Cart is empty now!': courseTitle.map((title,idx) => (<li key={idx} type="1">{ title}</li>))}
             
             </p>
           <div className="card-actions justify-end">
