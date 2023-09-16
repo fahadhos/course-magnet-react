@@ -85,7 +85,7 @@ const [totalPrice, setTotalPrice] = useState(0);
 
   return (
     <><Header></Header>
-    <div className='flex mx-auto'>
+    <div className='flex mx-auto  max-sm:flex-col-reverse'>
       <Cards      handleAddCourse={handleAddCourse}
             ></Cards>
              <SweetAlert2 {...swalProps} />
