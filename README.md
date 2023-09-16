@@ -8,6 +8,7 @@
 
 -  Added alert when the course already existed in cart list
 -  Added alert when the credit hour crossed the 20 hr limit
+- Dynamically added css style for showing cart is empty message 
 -  Added Purchase button when cart item is empty button is hidden otherwise when you click you will get modal congratulations and if you click home button then redirect reset into empty cart
 
 ____________________________________________________________________________
