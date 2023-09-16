@@ -7,7 +7,7 @@ const Carts = ({id,courseTitle,creditHour,ifExist,remainingCH,totalPrice }) => {
   
  
     return (
-        <div className='mx-auto'>
+        <div className='mx-auto max-sm:mx-auto'>
             <Cart 
             id={id} 
             ifExist={ifExist}
