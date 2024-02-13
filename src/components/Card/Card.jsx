@@ -30,7 +30,8 @@ const Card = ({courses,handleAddCourse}) => {
           <p>Credit: {credithour}hr</p>
         </div>
         <div className="card-actions items-center text-center justify-center">
-          <button onClick={()=>handleAddCourse(id,coursetitle,credithour,price)} className="btn btn-primary text-white h-10 bg-[#2F80ED] w-full">Select</button>
+          <button onClick={()=>handleAddCourse(id,coursetitle,credithour,price)} className="btn btn-primary text-white h-10 bg-[#2F80ED] w-full">
+            Select</button>
         </div>
       </div>
     </div>
