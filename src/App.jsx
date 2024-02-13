@@ -13,6 +13,7 @@ function App() {
    
   
   const [swalProps, setSwalProps] = useState({});
+  const [swalPropsZeroRemainingMsg, setswalPropsZeroRemainingMsg] = useState({});
   const [ifExist, setIfExist] = useState(false);   
   // course title dhorbo
   const [courseTitle, setCourseTitle]=useState([])
@@ -64,6 +65,15 @@ const [totalPrice, setTotalPrice] = useState(0);
     console.log('card er credit hour total ',newCredithour)
     // 
     const newRemaining = 20-newCredithour;
+    if(newRemaining<=0){
+      setswalPropsZeroRemainingMsg({
+        show: true,
+        title: 'Sorry!',
+        // text: 'Course exceeds maximum credit limit (20hr).',
+        html: '<p class="bold  ">Your credit limit already finished.</p>',
+      });
+     
+    }
     // const newRemaining =remainingCH-credithour;
 
     const newcourseTitle=   [...courseTitle,coursetitle]
@@ -89,6 +99,7 @@ const [totalPrice, setTotalPrice] = useState(0);
       <Cards      handleAddCourse={handleAddCourse}
             ></Cards>
              <SweetAlert2 {...swalProps} />
+             <SweetAlert2 {...swalPropsZeroRemainingMsg} />
       <Carts 
     ifExist={ifExist}
     courseTitle={courseTitle} 
