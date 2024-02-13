@@ -3,10 +3,14 @@ import Alert from '../Alert/Alert';
 import PropTypes from 'prop-types';
 import './Cart.css'
  import congo from '../../assets/congo.png'
+import { useState } from 'react';
 const Cart = ({ id,courseTitle,creditHour, ifExist,remainingCH,totalPrice}) => {
    
+  
   const handleReload = () => {
-    window.location.href = 'http://localhost:5174/'; // Navigate to the desired URL
+    console.log('click-ed');
+    courseTitle='';remainingCH=0;totalPrice=0;
+    // window.location.href = '/'; // Navigate to the desired URL
   };
     return (
        <> 
