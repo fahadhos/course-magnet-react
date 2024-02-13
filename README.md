@@ -1,10 +1,14 @@
+# Website name course magnet 
+# website can be accessed through this link https://course-magnet-by-fahadhos.netlify.app/
+
+<!-- 
 # Ques/Answers
 
 ## Add at least 3 Project features
 ## Discuss how you managed the state in your assignment project.
- 
+  -->
 
-### Answer no-1 Currently, I have tried to add Project features those are:
+###  Currently, I have tried to add Project features those are:
 
 -  Added alert when the course already existed in cart list
 -  Added alert when the credit hour crossed the 20 hr limit
@@ -13,7 +17,10 @@
 
 ____________________________________________________________________________
 
-### Answer no-2 Discussing how I have managed the state in my assignment project:
+###  Discussing how I have managed the state in my assignment project:
+
+
+
 
  ##### Created a component/Cards 
 
@@ -63,4 +70,4 @@ ________________________________________________________________
     ></Carts>
 ________________________________________________________________
 
-#### Developed science 15 Spet,23 by fahadhos Course Registration Site React 
+#### Developed since duration 15 September 2023, 17 September 2023. by fahadhos Course Registration Site React 
